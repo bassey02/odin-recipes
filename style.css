@@ -1,6 +1,26 @@
-* {
-    background-color: #f4f4f4;
+* ul { list-style: none;
+    
+}
+
+* li{
+    padding: 5px;
+    margin: auto;
+
+}
+* button{
     font-family: monospace;
+    font-weight: 500;
+}
+
+*  {
+    background-color:#f4f4f4;
+    font-family: monospace;
+}
+
+
+
+.container {
+    text-align: center;
 }
 
 
@@ -9,14 +29,6 @@ h1 {
     font-weight: bold;
 }
 
-.img,
-.lis {
-    text-align: center;
-}
-
-.lis ul{
-    list-style: none;
-}
 
 .lis li{
     padding: 5px;
@@ -26,4 +38,15 @@ h1 {
 button {
     background-color: beige;
     color: black;
+}
+
+
+.container-burrito{
+    text-align: center;
+}
+.container-lasagna{
+    text-align: center;
+}
+.container-cheesecake{
+    text-align: center;
 }
